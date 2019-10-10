@@ -14,6 +14,12 @@ window.addEventListener("load", () => {
   });
 });
 
+
+/**
+ * calculator - implemented as constructor function
+ *
+ * @return {type}  description
+ */
 function calculator() {
   this.calculate = function(op1, operator, op2) {
 
@@ -54,6 +60,10 @@ function calculator() {
   }
 }
 
+
+/**
+ * calculatorClass - implemented as JS6 class
+ */
 class calculatorClass {
   calculate (op1, operator, op2) {
     switch (operator) {
