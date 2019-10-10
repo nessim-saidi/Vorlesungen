@@ -1,0 +1,40 @@
+html {
+  padding, margin: 0;
+  background-color: rgb(78, 72, 69);
+  font-size: 12pt;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+main {
+  padding: 1em;
+
+  font-size: 2em;
+  line-height: 1em;
+}
+
+input {
+  width: 4.5em;
+  border: none;
+  line-height: 1em;
+  font-size: 1em;
+}
+
+main button {
+  line-height: 1em;
+  font-size: 1em;
+}
+
+#operator {
+  width: 0.6em;
+  text-align: center;
+}
+
+#result{
+  font-weight: 300;
+  font-size: 3em;
+  line-height: 1em;
+  color: white;
+}
